@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         button_next.setOnClickListener {
 
-            //Todo: Incase you want to test your work, uncomment this intent to lead to your activity, but comment it back when you're done
+            //Todo: In case you want to test your work, uncomment this intent to lead to your activity, but comment it back when you're done
 
             val intent = Intent(this, Dianah_Mini_Calculator::class.java)
             startActivity(intent)
