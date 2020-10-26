@@ -12,8 +12,12 @@
         <activity android:name=".BerylMiniCalc"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
+      <activity android:name=".Dianah_Mini_Calculator"></activity>
+        <activity android:name=".TaofeeqCalculatorActivity">
+        </activity>
+            <activity android:name=".MainActivity">        
+                <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
