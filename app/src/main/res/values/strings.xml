@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">Mini calculator</string>
+
     <string name="plus">+</string>
     <string name="x">x</string>
     <string name="divide">/</string>
     <string name="minus">-</string>
+
+    <string name="et_hint">0</string>
+    <string name="plus_sign">+</string>
+    <string name="minus_sign">-</string>
+    <string name="multiply_sign">X</string>
+    <string name="divide_symbol">/</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="multiplication">x</string>
+    <string name="division">/</string>
+
 </resources>
