@@ -15,6 +15,10 @@ class MainActivity : AppCompatActivity() {
 
             //Todo: In case you want to test your work, uncomment this intent to lead to your activity, but comment it back when you're done
 
+
+            //val intent = Intent(this, BerylMiniCalc::class.java)
+           // startActivity(intent)
+
 //            val intent = Intent(this, TaofeeqCalculatorActivity::class.java)
 //            startActivity(intent)
         }
