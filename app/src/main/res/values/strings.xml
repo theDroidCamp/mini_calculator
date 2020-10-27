@@ -5,4 +5,8 @@
     <string name="minus_sign">-</string>
     <string name="multiply_sign">X</string>
     <string name="divide_symbol">/</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="multiplication">x</string>
+    <string name="division">/</string>
 </resources>
