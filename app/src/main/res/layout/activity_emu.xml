@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EmuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="match_parent"
+            android:text="0"
+            android:layout_marginEnd="8dp"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:autofillHints="num" />
+
+
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="match_parent"
+            android:layout_marginStart="8dp"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+
+
+            android:autofillHints="num2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:paddingTop="80dp">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:justifyContent="space_evenly"> <!-- or "space_between", "space_evenly" -->
+
+            <Button
+                android:id="@+id/add_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/button_color"
+                android:width="120dp"
+                android:text="+"
+                android:textSize="@dimen/symbol_size" />
+
+            <Button
+                android:id="@+id/subtract_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:width="120dp"
+                android:background="@color/button_color"
+                android:text="-"
+                android:textSize="@dimen/symbol_size" />
+
+            <Button
+                android:id="@+id/multiply_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/button_color"
+                android:width="120dp"
+                android:text="x"
+                android:textSize="@dimen/symbol_size" />
+
+            <Button
+                android:id="@+id/divide_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/button_color"
+                android:width="120dp"
+                android:text="/"
+                android:textSize="@dimen/symbol_size" />
+        </com.google.android.flexbox.FlexboxLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/symbol_size" />
+
+</LinearLayout>
