@@ -6,6 +6,7 @@
     <color name="colorGreen">#045508</color>
     <color name="colorBlack">#000000</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="button_color">#90EE90</color>
     <color name="buttonsColor">#00ff00</color>
     <color name="colorWhite">#ffff</color>
     <color name="colorRed">#F10707</color>
