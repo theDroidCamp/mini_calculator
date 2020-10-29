@@ -16,6 +16,8 @@ class MainActivity : AppCompatActivity() {
             //startActivity(intent)
             //Todo: In case you want to test your work, uncomment this intent to lead to your activity, but comment it back when you're done
 
+//            val intent = Intent(this, BasicCalculator::class.java)
+ //           startActivity(intent)
 
             //val intent = Intent(this, CalculatorActivity::class.java)
             //val intent = Intent(this, BerylMiniCalc::class.java)

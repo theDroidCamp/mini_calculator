@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".BasicCalculator"></activity>
         <activity android:name=".EmuActivity"></activity>
-        
         <activity android:name=".CalculatorActivity"
             android:screenOrientation="portrait">
         </activity>
