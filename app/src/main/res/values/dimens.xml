@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="symbol_size">20sp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="marginSize">32dp</dimen>
 </resources>
