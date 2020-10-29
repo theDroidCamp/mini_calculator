@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Simple_Calculator"></activity>
+       
+        <activity android:name=".BerylMiniCalc" />
+        <activity android:name=".Dianah_Mini_Calculator" />
+        <activity android:name=".TaofeeqCalculatorActivity" />
+     
         <activity android:name=".BasicCalculator"></activity>
         <activity android:name=".EmuActivity"></activity>
         <activity android:name=".CalculatorActivity"
@@ -23,6 +29,7 @@
             <activity android:name=".MainActivity">        
                 <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
