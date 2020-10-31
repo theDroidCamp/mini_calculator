@@ -14,4 +14,5 @@
     <color name="buttonsColor">#00ff00</color>
     <color name="colorWhite">#ffff</color>
     <color name="colorRed">#F10707</color>
+    <color name="darkBrown">#171010</color>
 </resources>

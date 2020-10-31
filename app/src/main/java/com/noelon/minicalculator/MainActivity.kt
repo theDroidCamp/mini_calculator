@@ -26,6 +26,9 @@ class MainActivity : AppCompatActivity() {
             //val intent = Intent(this, TaofeeqCalculatorActivity::class.java)
 
             //startActivity(intent)
+
+            val intent = Intent(this, OscarCalculatorActivity::class.java)
+            startActivity(intent)
         }
     }
 }
