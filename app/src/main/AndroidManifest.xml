@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".OscarCalculatorActivity"></activity>
         <activity android:name=".ChibufirstActivity" />
         <activity android:name=".Simple_Calculator" />
         <activity android:name=".BerylMiniCalc" />
@@ -19,6 +20,9 @@
         <activity
             android:name=".CalculatorActivity"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".BerylMiniCalc" />
+        <activity android:name=".Dianah_Mini_Calculator" />
+        <activity android:name=".TaofeeqCalculatorActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
