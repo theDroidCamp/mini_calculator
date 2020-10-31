@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".OscarCalculatorActivity"></activity>
+        <activity android:name=".ChibufirstActivity" />
         <activity android:name=".Simple_Calculator" />
         <activity android:name=".BerylMiniCalc" />
         <activity android:name=".Dianah_Mini_Calculator" />
